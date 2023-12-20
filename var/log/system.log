@@ -1,0 +1,33 @@
+[2023-12-20T07:02:18.723914+00:00] main.ERROR: Missing following extensions: 'soap' 'bcmath'
+#0 [internal function]: Magento\Setup\Model\Installer->checkExtensions()
+#1 /var/lib/jenkins/workspace/magento/setup/src/Magento/Setup/Model/Installer.php(388): call_user_func_array()
+#2 /var/lib/jenkins/workspace/magento/setup/src/Magento/Setup/Console/Command/InstallCommand.php(238): Magento\Setup\Model\Installer->install()
+#3 /var/lib/jenkins/workspace/magento/vendor/symfony/console/Command/Command.php(298): Magento\Setup\Console\Command\InstallCommand->execute()
+#4 /var/lib/jenkins/workspace/magento/vendor/symfony/console/Application.php(1040): Symfony\Component\Console\Command\Command->run()
+#5 /var/lib/jenkins/workspace/magento/vendor/symfony/console/Application.php(301): Symfony\Component\Console\Application->doRunCommand()
+#6 /var/lib/jenkins/workspace/magento/vendor/magento/framework/Console/Cli.php(116): Symfony\Component\Console\Application->doRun()
+#7 /var/lib/jenkins/workspace/magento/vendor/symfony/console/Application.php(171): Magento\Framework\Console\Cli->doRun()
+#8 /var/lib/jenkins/workspace/magento/bin/magento(23): Symfony\Component\Console\Application->run()
+#9 {main} [] []
+[2023-12-20T07:04:10.023876+00:00] main.ERROR: Missing following extensions: 'soap' 'bcmath'
+#0 [internal function]: Magento\Setup\Model\Installer->checkExtensions()
+#1 /var/lib/jenkins/workspace/magento/setup/src/Magento/Setup/Model/Installer.php(388): call_user_func_array()
+#2 /var/lib/jenkins/workspace/magento/setup/src/Magento/Setup/Console/Command/InstallCommand.php(238): Magento\Setup\Model\Installer->install()
+#3 /var/lib/jenkins/workspace/magento/vendor/symfony/console/Command/Command.php(298): Magento\Setup\Console\Command\InstallCommand->execute()
+#4 /var/lib/jenkins/workspace/magento/vendor/symfony/console/Application.php(1040): Symfony\Component\Console\Command\Command->run()
+#5 /var/lib/jenkins/workspace/magento/vendor/symfony/console/Application.php(301): Symfony\Component\Console\Application->doRunCommand()
+#6 /var/lib/jenkins/workspace/magento/vendor/magento/framework/Console/Cli.php(116): Symfony\Component\Console\Application->doRun()
+#7 /var/lib/jenkins/workspace/magento/vendor/symfony/console/Application.php(171): Magento\Framework\Console\Cli->doRun()
+#8 /var/lib/jenkins/workspace/magento/bin/magento(23): Symfony\Component\Console\Application->run()
+#9 {main} [] []
+[2023-12-20T07:05:05.809087+00:00] main.ERROR: Missing following extensions: 'soap'
+#0 [internal function]: Magento\Setup\Model\Installer->checkExtensions()
+#1 /var/lib/jenkins/workspace/magento/setup/src/Magento/Setup/Model/Installer.php(388): call_user_func_array()
+#2 /var/lib/jenkins/workspace/magento/setup/src/Magento/Setup/Console/Command/InstallCommand.php(238): Magento\Setup\Model\Installer->install()
+#3 /var/lib/jenkins/workspace/magento/vendor/symfony/console/Command/Command.php(298): Magento\Setup\Console\Command\InstallCommand->execute()
+#4 /var/lib/jenkins/workspace/magento/vendor/symfony/console/Application.php(1040): Symfony\Component\Console\Command\Command->run()
+#5 /var/lib/jenkins/workspace/magento/vendor/symfony/console/Application.php(301): Symfony\Component\Console\Application->doRunCommand()
+#6 /var/lib/jenkins/workspace/magento/vendor/magento/framework/Console/Cli.php(116): Symfony\Component\Console\Application->doRun()
+#7 /var/lib/jenkins/workspace/magento/vendor/symfony/console/Application.php(171): Magento\Framework\Console\Cli->doRun()
+#8 /var/lib/jenkins/workspace/magento/bin/magento(23): Symfony\Component\Console\Application->run()
+#9 {main} [] []
