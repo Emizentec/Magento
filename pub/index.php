@@ -1,1 +1,1 @@
-Hello World, automation complete 
+Hello World, automation 
